@@ -23,7 +23,7 @@ h1 h2 h3 h4 h5 h5 p{
     padding-bottom: 18px;
     width: 100%;
 }
-.navbar-expand-lg .navbar-nav .nav-link {
+.navbar-expand-lg .navbar-nav .nav-link{
     font-family: "Poppins", serif;
     font-weight: 500;
     font-size: 16px;
@@ -36,7 +36,7 @@ h1 h2 h3 h4 h5 h5 p{
     margin-left: 450px;
 }
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-    color: white;
+    color: #FCD980 !important;
 }
 .navbar button{
     font-family: "Poppins", serif;
@@ -62,7 +62,53 @@ h1 h2 h3 h4 h5 h5 p{
 #banner{
     padding: 125px 0;
     background: #1C1E53;
-
+}
+#banner h2{
+    font-family: "Poppins", serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px; 
+    color: white;  
+}
+#banner p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    color: white;  
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+#banner a{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    color: white;  
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 40px;
+}
+#banner a span{
+    margin-left: 16px;
+}
+#banner button{
+    font-family: "Manrope", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 16px 56px;
+    background: transparent;
+    border-radius: 100px;
+    color: white;
+    border: 2px solid #F4F6FC;
+    transition: all linear 0.3s;
+    display: inline !important;
+}
+#banner button:hover{
+    background: #FCD980;
+    color: #1B1C2B;
+    border: 2px solid #FCD980;
 }
 /* BANNER CSS END */
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
