@@ -76,7 +76,68 @@ h1 h2 h3 h4 h5 h5 p{
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* PROJECTS CSS START */
-
+#projects{
+    padding: 128px 0;
+}
+#projects .col-lg-6{
+    padding: 0;
+}
+.mt-6{
+    margin-top: 32px !important;
+}
+#projects .arrow{
+    background: red;
+}
+#projects .packages-hover1{
+    position: relative;
+    padding: 0;
+    overflow: hidden; 
+}
+#projects .packages-hover1 .hover1{
+    background: linear-gradient(to top left, rgba(28, 30, 83, 1) 0%, rgba(28, 30, 83, 0.42) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%; 
+    transition: all linear 0.5s; 
+    opacity: 0;
+}
+#projects .packages-hover1:hover .hover1{
+    width: 48%; 
+    opacity: 1; 
+}
+#projects .packages-hover1 .hover1 h3{
+    margin: 310px 35px 16px 48px;
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 313px;
+    color: white; 
+}
+#projects .packages-hover1 .hover1 p{
+    margin: 0 55px 0 48px;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    width: 293px;
+    color: white; 
+    opacity: 80%;
+}
+#projects .packages-hover1 .hover1 a{
+    margin: 40px 0 76px 48px;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    width: 140px;
+    color: #FCD980;
+    text-decoration: none;
+}
+#projects .packages-hover1 .hover1 span{
+    padding-left: 14px;
+}
 /* PROJECTS CSS END */
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
