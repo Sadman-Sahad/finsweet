@@ -79,53 +79,68 @@ h1 h2 h3 h4 h5 h5 p{
 #projects{
     padding: 128px 0;
 }
+#projects .projects-top{
+    align-items: center;
+}
 #projects .col-lg-6{
     padding: 0;
 }
-.mt-6{
-    margin-top: 32px !important;
+#projects .col-lg-6 h3{ 
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px; 
+    color: #282938; 
+    margin-bottom: 65px;
 }
-#projects .arrow{
-    background: red;
+#projects .col-lg-6 a{ 
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+    text-decoration: none; 
+    margin-bottom: 80px;
+    align-content: center;
 }
-#projects .packages-hover1{
+#projects .text-end span{
+    padding-left: 14px; 
+}
+#projects .projects-left{
     position: relative;
     padding: 0;
     overflow: hidden; 
 }
-#projects .packages-hover1 .hover1{
-    background: linear-gradient(to top left, rgba(28, 30, 83, 1) 0%, rgba(28, 30, 83, 0.42) 100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%; 
-    transition: all linear 0.5s; 
-    opacity: 0;
+#projects .projects-left .hover-part{ 
+        background: linear-gradient(to top left, rgba(28, 30, 83, 1) 0%, rgba(28, 30, 83, 0.42) 100%);
+        position: absolute;
+        top: 0;
+        left: -422px;
+        width: 48%;
+        height: 100%;
+        transition: all linear 0.5s;
+        opacity: 1; 
 }
-#projects .packages-hover1:hover .hover1{
-    width: 48%; 
-    opacity: 1; 
-}
-#projects .packages-hover1 .hover1 h3{
+#projects .projects-left .hover-part h3{
     margin: 310px 35px 16px 48px;
     font-family: "Poppins", serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 36px;
     width: 313px;
-    color: white; 
+    color: white;  
 }
-#projects .packages-hover1 .hover1 p{
+#projects .projects-left .hover-part p{
     margin: 0 55px 0 48px;
     font-family: "Poppins", serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
     width: 293px;
-    color: white; 
-    opacity: 80%;
+    color: white;  
+    opacity: .8; 
 }
-#projects .packages-hover1 .hover1 a{
+#projects .projects-left .hover-part a{
     margin: 40px 0 76px 48px;
     font-family: "Poppins", serif;
     font-size: 16px;
@@ -133,10 +148,107 @@ h1 h2 h3 h4 h5 h5 p{
     line-height: 28px;
     width: 140px;
     color: #FCD980;
-    text-decoration: none;
+    text-decoration: none; 
 }
-#projects .packages-hover1 .hover1 span{
-    padding-left: 14px;
+#projects .projects-left .hover-part span{
+    padding-left: 14px; 
+}
+#projects .projects-left:hover .hover-part{
+    height: 100%;
+    opacity: 1; 
+    left: 0;
+}
+
+/* project-right-up  */
+#projects .projects-right-up{
+    position: relative; 
+    padding: 0;
+    overflow: hidden;  
+}
+#projects .projects-right-up .b-img{
+    width: 100%;
+    height: 284px;
+}
+#projects .projects-right-up .hover-part{
+    background: linear-gradient(to top right, rgba(28, 30, 83, 1) 0%, rgba(28, 30, 83, 0.42) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    height: 0%;
+    transition: all linear 0.5s; 
+    opacity: 0;
+}
+#projects .projects-right-up .hover-part h3{
+    margin: 130px 36px 10px 56px;
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 210px;
+    color: white;   
+}
+#projects .projects-right-up .hover-part a{
+    margin: 0 0 45px 56px;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FCD980;
+    text-decoration: none;  
+}
+#projects .projects-right-up .hover-part span{
+    padding-left: 14px;  
+}
+#projects .projects-right-up:hover .hover-part{
+    height: 100%;
+    opacity: 1; 
+}
+/* project-right-down  */
+#projects .projects-right-down{
+    position: relative; 
+    padding: 0;
+    overflow: hidden; 
+    margin-top: 32px;
+}
+#projects .projects-right-down .b-img{
+    width: 100%;
+    height: 284px;
+}
+#projects .projects-right-down .hover-part{
+    background: linear-gradient(to top right, rgba(28, 30, 83, 1) 0%, rgba(28, 30, 83, 0.42) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    height: 0%;
+    transition: all linear 0.5s; 
+    opacity: 0;
+}
+#projects .projects-right-down .hover-part h3{
+    margin: 130px 36px 10px 56px;
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 210px;
+    color: white;   
+}
+#projects .projects-right-down .hover-part a{
+    margin: 0 0 45px 56px;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FCD980;
+    text-decoration: none;  
+}
+#projects .projects-right-down .hover-part span{
+    padding-left: 14px;  
+}
+#projects .projects-right-down:hover .hover-part{
+    height: 100%;
+    opacity: 1; 
 }
 /* PROJECTS CSS END */
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
