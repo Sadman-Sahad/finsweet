@@ -346,11 +346,6 @@ h1 h2 h3 h4 h5 h5 p{
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* FEATURES CSS START */
-
-/* FEATURES CSS END */
-/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
-/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
-/* PROJECTS CSS START */
 #features{
     padding: 128px 0;
     background: #F4F6FC;
@@ -401,12 +396,12 @@ h1 h2 h3 h4 h5 h5 p{
     background: #FFFFFF;
     max-width: 410px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+    transition: all linear .5s;
 }
 #features .col-lg-4:hover {
     box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.3);
-    transition: .5s;
 }
-/* PROJECTS CSS END */
+/* FEATURES CSS END */
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* FEEDBACK CSS START */
@@ -572,7 +567,7 @@ h1 h2 h3 h4 h5 h5 p{
 #newsletter .newsletter-left{
     position: relative;
 }
-#newsletter .newsletter-left .newsletter-left-bg {
+#newsletter .newsletter-left .newsletter-left-text {
     position: absolute;
     top: 0;
     left: 12px;
@@ -580,8 +575,9 @@ h1 h2 h3 h4 h5 h5 p{
     opacity: .5;
     width: 656px;
     height: 691px;
+    padding-top: 96px;
+    padding-left: 96px;
 }
-#newsletter .newsletter-left .newsletter-left-text
 #newsletter .newsletter-left .newsletter-left-text h3{
     font-family: "Poppins", serif;
     font-size: 54px;
