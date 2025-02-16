@@ -467,7 +467,7 @@ h1 h2 h3 h4 h5 h5 p{
     height: 52px;
 }
 .carousel-control-next{ 
-    top: 180px !important;
+    top: 195px !important;
     left: 745px !important;
     width: 48px !important;
     height: 48px !important;  
@@ -475,7 +475,7 @@ h1 h2 h3 h4 h5 h5 p{
     border-radius: 50%;  
 }
 .carousel-control-prev{ 
-    top: 180px !important;
+    top: 195px !important;
     left: 680px !important;
     width: 48px !important;
     height: 48px !important; 
@@ -495,6 +495,7 @@ h1 h2 h3 h4 h5 h5 p{
 #faq{
     padding: 128px 0;
     background: white;
+    height: 724px;
 }
 #faq h3{
     font-family: "Poppins", serif;
@@ -534,7 +535,196 @@ h1 h2 h3 h4 h5 h5 p{
     font-weight: 500;
     margin-right: 59px;
 }
-
+#faq .accordion .accordion-item .accordion-collapse .accordion-body {
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 620px;
+    margin-left: 85px;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #282938 !important; 
+    background-color: transparent !important;
+}
+.accordion-button::after {
+    width: auto !important;
+    font-family: bootstrap-icons !important;
+    content: "\F64D" !important;
+    background-image: none !important;
+    font-size: 25px;
+    line-height: 22px;
+    transition: var(--bs-accordion-btn-icon-transition) !important;
+}
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(45deg) !important;
+}
 /* FAQ CSS END */
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* NEWSLATER CSS START */
+#newsletter{
+    padding: 0;
+}
+#newsletter .newsletter-left{
+    position: relative;
+}
+#newsletter .newsletter-left .newsletter-left-text {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    background: #1C1E53;
+    opacity: .5;
+    width: 656px;
+    height: 691px;
+    padding: 96px 96px 261px 96px;
+}
+#newsletter .newsletter-left .newsletter-left-text h3{
+    font-family: "Poppins", serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px; 
+    color: #FFFFFF;
+}
+#newsletter .newsletter-left .newsletter-left-text p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    color: #FFFFFF;
+}
+#newsletter .newsletter-right{
+    background: #1C1E53;
+    width: 656px;
+    height: 691px;
+    margin: 0 auto;
+}
+#newsletter .newsletter-right h3{
+    font-family: "Poppins", serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px; 
+    color: #FFFFFF;
+    margin-top: 96px;
+    margin-left: 96px;
+}
+#newsletter .newsletter-right p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    color: #F4F6FC;
+    margin: 16px 96px 40px 96px ;
+}
+.form-control {
+    padding-top: 18px !important;
+    padding-bottom: 18px !important;
+    padding-left: 32px !important;
+    line-height: 28px !important;
+    color: #F4F6FC !important;
+    border: 2px solid rgba(255, 255, 255, 0.05) !important;
+    margin-top: 16px !important;
+    width: 432px !important;
+    margin: 0 auto;
+    background: transparent !important;
+    height: 70px;
+}
+.form-control::placeholder {
+    color: #F4F6FC!important;  
+    opacity: .5 !important;  
+}
+#newsletter .newsletter-right button{
+    font-family: "Manrope", serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 16px 150px;
+    background: transparent;
+    border-radius: 100px;
+    color: white;
+    border: 2px solid #F4F6FC;
+    transition: all linear 0.3s;
+    margin-top: 40px;
+    margin-bottom: 28px;
+    margin-left: 96px;
+    margin-right: 96px;
+}
+#newsletter .newsletter-right button:hover{
+    background: #FCD980;
+    color: #1B1C2B;
+    border: 2px solid #FCD980;
+}
+#newsletter .newsletter-right a{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px; 
+    color: white;
+    text-decoration: none;
+    margin: 0 190px;
+}
+#newsletter .newsletter-right a span{
+    margin-left: 16px;
+}
+/* NEWSLATER CSS END */
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* BLOG CSS START */
+#blog{
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+#blog h2{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px; 
+    color: #282938;
+    margin-bottom: 64px;
+}
+#blog h4{
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px; 
+    color: #282938;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    width: 405px;
+}
+#blog p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    color: #282938;
+    width: 405px;
+    margin-bottom: 32px;
+}
+#blog .date{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+#blog a{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    color: #282938;
+    text-decoration: none;
+    margin: 0;
+}
+#blog a span{
+    margin-left: 16px;
+}
+/* BLOG CSS END */
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* FOOTER CSS START */
+
+/* FOOTER CSS END */
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
