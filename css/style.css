@@ -572,7 +572,7 @@ h1 h2 h3 h4 h5 h5 p{
 #newsletter .newsletter-left{
     position: relative;
 }
-#newsletter .newsletter-left .newsletter-left-text {
+#newsletter .newsletter-left .newsletter-left-bg {
     position: absolute;
     top: 0;
     left: 12px;
@@ -580,8 +580,8 @@ h1 h2 h3 h4 h5 h5 p{
     opacity: .5;
     width: 656px;
     height: 691px;
-    padding: 96px 96px 261px 96px;
 }
+#newsletter .newsletter-left .newsletter-left-text
 #newsletter .newsletter-left .newsletter-left-text h3{
     font-family: "Poppins", serif;
     font-size: 54px;
@@ -724,7 +724,97 @@ h1 h2 h3 h4 h5 h5 p{
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* FOOTER CSS START */
-
+#footer .footer-top{
+    background: #1C1E53;
+    padding-top: 100px;
+}
+#footer .footer-up h6{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    color: white;
+    width: 400px;
+    margin-bottom: 86px;
+    margin-top: 24px;
+}
+#footer .footer-up .contact{
+    background: #FCD980;
+}
+#footer .footer-up .contact h4{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px; 
+    color: #282938;
+    margin-top: 18px;
+    margin-left: 37px;
+}
+#footer .footer-up .contact p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    color: #282938;
+    margin-top: 2px;
+    margin-left: 37px;
+}
+#footer .footer-up .contact .mail{
+    margin-right: 30px;
+}
+#footer .footer-up .footer-up-right h2{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px; 
+    color: #FFFFFF;
+}
+#footer .footer-up .footer-up-right p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    color: #F4F6FC;
+    margin-top: 14px;
+    margin-bottom: 28px;
+    width: 400px;
+}
+#footer .footer-up .footer-up-right a{
+    margin-right: 27px;
+    text-decoration: none;
+}
+#footer .footer-down{
+    background: white;
+}
+#footer .footer-down p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    color: #282938;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+#footer .footer-down p a{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    color: #282938;
+    margin-left: 5px;
+    text-decoration: none;
+}
+#footer .footer-down .footer-down-lists ul li a{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    color: #282938;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-decoration: none;
+    margin-right: 32px;
+}
 /* FOOTER CSS END */
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
