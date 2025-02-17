@@ -58,10 +58,123 @@ h1 h2 h3 h4 h5 h5 p{
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* BANNER CSS START */
-
+#banner{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+#banner h6{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-top: 24px;
+    color: #282938;
+}
+#banner p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    margin-bottom: 10px;
+    width: 484px;
+}
+#banner h2{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #282938;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    width: 595px;
+}
 /* BANNER CSS END */
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
-/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* 
+/* GOAl CSS START */
+#goal .goal-top{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 108px;
+    background: #F4F5F5;
+}
+#goal h6{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+}
+#goal p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    width: 515px;
+}
+#goal h2{
+    font-family: "Poppins", serif;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #282938;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    width: 515px;
+}
+#goal h3{
+    font-family: "Poppins", serif;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #282938;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    width: 515px;
+}
+#goal .goal-bottom .col-lg-12 img{
+    width: 100%;
+    height: 340px;
+}
+/* GOAl CSS END */
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* PROCESS CSS START */
+#process .process-datails{
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+#process .process-datails h2{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #282938;
+    margin-bottom: 48px;
+    text-align: center;
+}
+#process .process-datails h3{
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #282938;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+#process .process-datails p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    width: 272px;
+}
+
+/* PROCESS CSS END */
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* FOOTER CSS START */
 #footer .footer-top{
     background: #1C1E53;
@@ -159,5 +272,50 @@ h1 h2 h3 h4 h5 h5 p{
     margin-right: 30px;
 }
 /* FOOTER CSS END */
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* MISSION CSS START */
+#mission{
+    background: #EEF4FA;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+#mission .mission-details .col-lg-7{
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+#mission .mission-details .mission-bottom{
+    margin-top: 86px;
+}
+#mission .mission-details .mission-bottom .col-lg-7 {
+    padding-left: 143px !important;
+}
+#mission h6{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-top: 54px;
+    color: #282938;
+}
+#mission p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    margin-bottom: 10px;
+    width: 623px;
+}
+#mission h2{
+    font-family: "Poppins", serif;
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #282938;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 623px;
+}
+/* MISSION CSS END */
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
