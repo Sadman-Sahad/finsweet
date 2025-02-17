@@ -552,7 +552,6 @@ h1 h2 h3 h4 h5 h5 p{
     background-image: none !important;
     font-size: 25px;
     line-height: 22px;
-    transition: var(--bs-accordion-btn-icon-transition) !important;
 }
 .accordion-button:not(.collapsed)::after {
     transform: rotate(45deg) !important;
