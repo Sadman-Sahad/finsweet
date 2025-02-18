@@ -14,9 +14,7 @@ li{
 h1 h2 h3 h4 h5 h5 p{
     line-height: 0.8px;
 }
-/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
-/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
-/* NAVBAR CSS START */
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-NAVBAR CSS START-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 .navbar {
     background: #1C1E53;
     width: 100%;
@@ -54,10 +52,8 @@ h1 h2 h3 h4 h5 h5 p{
     color: #1B1C2B;
     border: 2px solid #FCD980;
 }
-/* NAVBAR CSS END */
-/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
-/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
-/* BANNER CSS START */
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-NAVBAR CSS END-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-BANNER CSS START-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 #banner{
     padding-top: 128px;
     padding-bottom: 128px;
@@ -89,10 +85,8 @@ h1 h2 h3 h4 h5 h5 p{
     margin-bottom: 30px;
     width: 595px;
 }
-/* BANNER CSS END */
-/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
-/* 
-/* GOAl CSS START */
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-BANNER CSS END-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-GOAL CSS START-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 #goal .goal-top{
     padding-top: 80px;
     padding-bottom: 80px;
@@ -139,9 +133,8 @@ h1 h2 h3 h4 h5 h5 p{
     width: 100%;
     height: 340px;
 }
-/* GOAl CSS END */
-/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
-/* PROCESS CSS START */
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-GOAL CSS END-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-PROCESS CSS START-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 #process .process-datails{
     margin-top: 128px;
     margin-bottom: 128px;
@@ -172,10 +165,139 @@ h1 h2 h3 h4 h5 h5 p{
     color: #282938;
     width: 272px;
 }
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-PROCESS CSS END-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-MISSION CSS START-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+#mission{
+    background: #EEF4FA;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+#mission .mission-details .col-lg-7{
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+#mission .mission-details .mission-bottom{
+    margin-top: 86px;
+}
+#mission .mission-details .mission-bottom .col-lg-7 {
+    padding-left: 143px !important;
+}
+#mission h6{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-top: 54px;
+    color: #282938;
+}
+#mission p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    margin-bottom: 10px;
+    width: 623px;
+}
+#mission h2{
+    font-family: "Poppins", serif;
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #282938;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 623px;
+}
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-MISSION CSS END-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-BENIFITS CSS START-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+#benifits{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+#benifits .benifits-top h2{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px; 
+    color: #282938;
+    width: 630px;
+    margin: 0 auto;
+}
+#benifits .benifits-bottom{
+    flex-wrap: nowrap;
+}
+#benifits .benifits-details{
+    padding: 50px 32px 48px 48px;
+    background: #F4F6FC;
+    margin: 48px 16px;
+    max-width: 440px;
+    transition: all linear 0.5s;
+}
+#benifits .benifits-details:hover{
+    box-shadow: rgba(0, 0, 0, 0.204) 0px 0px 10px 2px;
+}
+#benifits .benifits-details h5{
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px; 
+    color: #282938;
+    margin-top: 26px;
+}
+#benifits .benifits-details p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    color: #282938;
+    width: 315px;
+    margin-top: 12px;
+}
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-BENIFITS CSS END-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-TEAM CSS START-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+#team{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background: #F4F6FC;
+}
+#team .team-top h2{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px; 
+    color: #282938;
+    margin-bottom: 48px;
+}
+#team .team-bottom{
+    background: white;
+    position: relative;
+}
+#team .team-bottom .team-member .team-member-details .team-socials{
+    padding: 127px 53px 28px 53.5px;
+    border-radius: 50%;
+    background: linear-gradient(to top, #5239FA, #ffffff);
+    width: 168px;
+    height: 168px;
+    position: absolute;
+    top: 0;
+    left: 12;
+    opacity: .5;
 
-/* PROCESS CSS END */
-/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
-/* FOOTER CSS START */
+}
+#team .team-bottom .team-member .team-member-details .team-socials a{
+    position: relative;
+}
+#team .team-bottom .team-member .team-member-details .team-socials a img{
+    width: 13px;
+    height: 13px;
+    margin: 0 auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    z-index: 1;
+}
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-TEAM CSS END-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-FOOTER CSS START-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 #footer .footer-top{
     background: #1C1E53;
     padding-top: 100px;
@@ -271,51 +393,4 @@ h1 h2 h3 h4 h5 h5 p{
     text-decoration: none;
     margin-right: 30px;
 }
-/* FOOTER CSS END */
-/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
-/* MISSION CSS START */
-#mission{
-    background: #EEF4FA;
-    padding-top: 128px;
-    padding-bottom: 128px;
-}
-#mission .mission-details .col-lg-7{
-    padding-top: 54px;
-    padding-bottom: 54px;
-}
-#mission .mission-details .mission-bottom{
-    margin-top: 86px;
-}
-#mission .mission-details .mission-bottom .col-lg-7 {
-    padding-left: 143px !important;
-}
-#mission h6{
-    font-family: "Poppins", serif;
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: 500;
-    margin-top: 54px;
-    color: #282938;
-}
-#mission p{
-    font-family: "Poppins", serif;
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: 400;
-    color: #282938;
-    margin-bottom: 10px;
-    width: 623px;
-}
-#mission h2{
-    font-family: "Poppins", serif;
-    font-size: 38px;
-    line-height: 56px;
-    font-weight: 600;
-    color: #282938;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    width: 623px;
-}
-/* MISSION CSS END */
-/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
-/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-FOOTER CSS END-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
