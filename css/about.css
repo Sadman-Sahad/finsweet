@@ -270,20 +270,47 @@ h1 h2 h3 h4 h5 h5 p{
     margin-bottom: 48px;
 }
 #team .team-bottom{
+    justify-content: space-between;
+}
+#team .team-bottom .team-member {
+    text-align: center;
+    padding-top: 48px !important;
+    padding: 0;
     background: white;
+    width: 310px;
+}
+#team .team-bottom .team-member h6{
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px; 
+    color: #1D2130;
+    margin-bottom: 2px;
+    margin-top: 30px;
+}
+#team .team-bottom .team-member p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    color: #1D2130;
+    margin-bottom: 32px;
+}
+#team .team-bottom .team-member .team-member-details{
     position: relative;
 }
-#team .team-bottom .team-member .team-member-details .team-socials{
-    padding: 127px 53px 28px 53.5px;
+#team .team-bottom .team-member .team-member-details .team-hover-image
+#team .team-bottom .team-member .team-member-details .team-socials {
     border-radius: 50%;
-    background: linear-gradient(to top, #5239FA, #ffffff);
+    background: linear-gradient(to top, rgba(82, 57, 250, 1), rgba(255, 255, 255, 0));
     width: 168px;
     height: 168px;
     position: absolute;
-    top: 0;
-    left: 12;
-    opacity: .5;
-
+    bottom: -168px;
+    left: 71px;
+    opacity: 0;
+    padding-left: 45px;
+    transition: all linear 0.5s;
 }
 #team .team-bottom .team-member .team-member-details .team-socials a{
     position: relative;
@@ -295,6 +322,16 @@ h1 h2 h3 h4 h5 h5 p{
     margin-left: 5px;
     margin-right: 5px;
     z-index: 1;
+    margin-top: 127px !important;
+    margin-bottom: 28px !important;
+    
+}
+#team .team-bottom .team-member:hover{
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.3);
+}
+#team .team-bottom .team-member:hover .team-socials {
+    opacity: 1;
+    bottom: 0px;
 }
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-TEAM CSS END-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-FOOTER CSS START-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
